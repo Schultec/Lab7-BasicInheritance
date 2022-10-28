@@ -13,13 +13,13 @@ public class CarEngine extends Engine implements Comparable<Engine>{
     //methods
     @Override
     public int calcOutput() {
-        return super.calcOutput();
+        return super.calcOutput() / 12;
     }
 
     //toString
 
     @Override
     public String toString() {
-        return "Manufacturer: "+ this.getManufacturer() + "with HP of: " + this.horsePower;
+        return "Manufacturer: "+ this.getManufacturer() + " with HP of: " + this.horsePower;
     }
 }
