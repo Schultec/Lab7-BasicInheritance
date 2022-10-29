@@ -22,9 +22,9 @@ public class TruckEngine extends Engine implements Comparable<Engine>{
     @Override
     public String toString() {
         if (diesel) {
-            return "Manufacturer: " + this.getManufacturer() + "with HP of: " + this.horsePower + " and the engine is a diesel";
+            return "Truck Engine - Manufacturer " + this.getManufacturer() + " with HP of " + this.horsePower + " output of " + this.calcOutput() +  " and the engine is a diesel";
         }
-        return "Manufacturer: " + this.getManufacturer() + "with HP of: " + this.horsePower + " and the engine is not a diesel";
+        return "Truck Engine - Manufacturer " + this.getManufacturer() + " with HP of " + this.horsePower + " output of " + this.calcOutput() + " and the engine is NOT a diesel";
     }
 
 }

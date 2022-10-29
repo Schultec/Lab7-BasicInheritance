@@ -20,6 +20,6 @@ public class CarEngine extends Engine implements Comparable<Engine>{
 
     @Override
     public String toString() {
-        return "Manufacturer: "+ this.getManufacturer() + " with HP of: " + this.horsePower;
+        return "Car Engine - Manufacturer: "+ this.getManufacturer() + " with HP of " + this.horsePower + " output of " + this.calcOutput();
     }
 }
